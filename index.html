@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">MyPortfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hi, I'm a Web Developer</h1>
+        <p>Welcome to my portfolio website built with HTML, CSS, and JavaScript.</p>
+        <button id="welcomeBtn">Click Me!</button>
+        <p id="dynamicMessage" class="hidden"></p>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="https://picsum.photos/300/200?random=1" alt="Screenshot of a sleek web application interface">
+                <h3>Project One</h3>
+                <p>A responsive landing page built using modern CSS layout techniques.</p>
+            </div>
+            <div class="project-card">
+                <img src="https://picsum.photos/300/200?random=2" alt="Mockup of an interactive JavaScript dashboard">
+                <h3>Project Two</h3>
+                <p>An interactive web application featuring dynamic DOM manipulation.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
